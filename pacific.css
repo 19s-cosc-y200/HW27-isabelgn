@@ -121,17 +121,20 @@ header, nav, main, footer{
 table{
     Width: 90%;
     margin: auto;
-    border: solid 1px #3399CC;
     border-collapse: collapse;
     
 }
 td{
     text-align:center;
 }
+td, th{
+    padding:5px;
+    border:1px solid #3399CC;
+}
 .text{
     text-align:left;
 }
-tr:nth-of-type{
+tr:nth-of-type(even){
     background-color:#F5FAFC;
 }
 @media only screen and (max-width: 1024px) {
